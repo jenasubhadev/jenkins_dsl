@@ -1,0 +1,12 @@
+# docker-compose.yml
+version: '3.7'
+services:
+  jenkins:
+    build: .
+    image: jenkins:jcasc
+    ports:
+      - 8080:8080
+    container_name: jenkins
+    environment:
+    - JENKINS_ADMIN_ID=admin
+    - JENKINS_ADMIN_PASSWORD=password

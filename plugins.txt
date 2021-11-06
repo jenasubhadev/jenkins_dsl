@@ -12,5 +12,6 @@ configuration-as-code:latest
 email-ext:latest
 ldap:latest
 mailer:latest
-
-
+pipeline-aws:latest
+docker-plugin
+docker-workflow

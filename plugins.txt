@@ -15,3 +15,4 @@ mailer:latest
 pipeline-aws:latest
 docker-plugin
 docker-workflow
+blueocean

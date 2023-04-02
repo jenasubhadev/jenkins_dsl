@@ -11,7 +11,7 @@ pipeline {
                 echo 'Test'
             }
         }
-        stage('Success'){
+        stage('Subha'){
             steps {
                 echo 'Success'
             }
